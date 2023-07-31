@@ -70,7 +70,7 @@ while True:
     D = 0
     m = 0
     J = l
-    while D <= L:
+    while D <= L or m <= 5:
         G = input('Guess a letter: ')
         print()
         n = 0
